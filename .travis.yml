@@ -1,4 +1,4 @@
 language: java
 script:
   - ./mvnw clean install
-  - ./mvnw -Dtest=src//com/travis/Test/JunitTestClass
+  - mvn -Dtest=src/com/travis/Test/JunitTestClass
