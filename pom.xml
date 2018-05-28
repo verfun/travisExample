@@ -12,9 +12,9 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
-          <excludes>
-          	<exclude>./src/com/travis/Test/JunitTestClass.java</exclude>
-          </excludes>
+          <includes>
+          	<include>**/JunitTestClass.java</include>
+          </includes>
         </configuration>
       </plugin>
     </plugins>
